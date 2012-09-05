@@ -22,9 +22,8 @@
 */
 
 var User = describe('User', function () {
-    property('login', String);
+    property('first_name', String);
+    property('last_name', String);
+    property('email', String);
     property('password', String);
-});var Post = describe('Post', function () {
-    property('name', String);
-    property('content', String);
 });

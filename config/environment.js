@@ -14,11 +14,11 @@ app.configure(function(){
     app.use(express.session({secret: 'secret'}));
     app.use(express.methodOverride());
 	// Passport ---------------------
-	//rwps.init();
+	rwps.init();
     // hook up user model
-    //process.nextTick(function () {
-    //    rwps.loadUser(User);
-    //});
+    process.nextTick(function () {
+        rwps.loadUser(User);
+    });
 	//------------------------------
     app.use(app.router);
 });

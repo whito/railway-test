@@ -1,5 +1,5 @@
 development:
     baseURL: "http://localhost:3000/"
     local:
-        usernameField: "login"
+        usernameField: "email"
         passwordField: "password"
