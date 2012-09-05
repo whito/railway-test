@@ -1,27 +1,6 @@
 
-download or clone into directory
+Test app with RailwayJS and Passport
+including some custom controllers and routes
 
-npm install
-
-node server.js
-
-got to http://localhost:3000/login
-
-see that the GET calls the custom route to the login action of the users_controller
-
-submit the form
-
-see that the POST calls the custom testpost action defined in the users_controller
-
-check out environment.js and uncomment the section:
-
-// Passport ---------------------
-//rwps.init();
-// hook up user model
-//process.nextTick(function () {
-//    rwps.loadUser(User);
-//});
-//------------------------------
-
-run it again and see that the POST doesn't happen
+enjoy
 
