@@ -1,5 +1,7 @@
 
-NPM install
+download or clone into directory
+
+npm install
 
 node server.js
 
